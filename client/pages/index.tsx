@@ -1,5 +1,5 @@
+import React from 'react';
 import { Box, Flex, Heading, Stack } from '@chakra-ui/react';
-import type { NextPage } from 'next';
 import Head from 'next/head';
 
 // import Image from 'next/image'; <- use this for images
@@ -19,7 +19,7 @@ https://chakra-ui.com/docs/components/overview
 *also hovering over an element should give you info about it
 */
 
-const Home: NextPage = () => {
+const Index = () => {
     return (
         <>
             <Head>
@@ -52,4 +52,4 @@ const Home: NextPage = () => {
     );
 };
 
-export default Home;
+export default Index;
