@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+    Detox
+{% block body %}
+
+<h1>Welcome you Detox!</h1>
+<h2>Enter the text for which you'd like to check toxicity level or enter the youtube video for which you'd like to check the toxicity level on the basis of the comment section</h2>
+
+
+
+<form action = "/" method="POST">
+
+    <div>
+        <label for="toxicity">Enter Text to check Toxicity</label>
+        <input type="text" id = "text_analyse" name="text_analyse">
+    </div>
+
+    <div>
+        <label for="toxicity">Enter Youtube Video id:</label>
+        <input type="text" id = "yt_analyse" name="yt_analyse">
+    </div>        
+
+    <button type="submit" value="toxicity">Get Toxicity</button>
+</form>
+
+{% endblock %}
