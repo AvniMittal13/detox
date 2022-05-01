@@ -1,0 +1,142 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+    Detox | Analyse
+{% block body %}
+
+    <!-- ======= Features Section ======= -->
+    <br><br>
+    <section id="features" class="features">
+        <div class="container">
+            <h3>Toxicity levels for your entered data!</h3>
+          <div class="row">
+            <div class="col-lg-6 mt-2 mb-tg-0 order-2 order-lg-1">
+              <ul class="nav nav-tabs flex-column">
+                <li class="nav-item" data-aos="fade-up">
+                  <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+                    <h4>Analysis of Text :</h4>
+                    <p>
+                        <div class="text">
+                            <!-- <h2>Analysis of Text :</h2>
+                            <br> -->
+                            <div>
+                                Toxicity : {{text[0]}} %
+                            </div>
+                            <div>
+                                Insult : {{text[1]}} %
+                            </div>
+                            <div>
+                                Profanity : {{text[2]}} %
+                            </div>
+                            <div>
+                                Threat : {{text[3]}} %
+                            </div>
+                        </div>
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item" data-aos="fade-up">
+                    <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+                      <h4>Analysis of Youtube videos :</h4>
+                      <p>
+                        <div class="youtube">
+                            <!-- <h2>Analysis of Youtube videos :</h2>
+                            <br> -->
+                            <div>
+                                Toxicity : {{yt[0]}} % comments
+                            </div>
+                            <div>
+                                Insult : {{yt[1]}} % comments
+                            </div>
+                            <div>
+                                Profanity : {{yt[2]}} % comments
+                            </div>
+                            <div>
+                                Threat : {{yt[3]}} % comments
+                            </div>
+                        </div>
+                      </p>
+                    </a>
+                  </li>
+              </ul>
+              <br><br>
+              <form action = "/analyse" method="POST">
+                <button type="submit" value="done">Do another Analysis!</button>
+            </form>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in">
+              <div class="tab-content">
+                <div class="tab-pane active show" id="tab-1">
+                  <figure>
+                    <img src="{{url_for('static', filename='img/features-1.png')}}" class="img-fluid" alt=""/>
+                  </figure>
+                </div>
+                <div class="tab-pane" id="tab-2">
+                  <figure>
+                    <!-- <img src="assets/img/features-2.png" alt="" class="img-fluid"> -->
+                    <img src="{{url_for('static', filename='img/features-2.png')}}" class="img-fluid" alt=""/>
+                  </figure>
+                </div>
+                <div class="tab-pane" id="tab-3">
+                  <figure>
+                    <!-- <img src="assets/img/features-3.png" alt="" class="img-fluid"> -->
+                    <img src="{{url_for('static', filename='img/features-3.png')}}" class="img-fluid" alt=""/>
+                  </figure>
+                </div>
+                <div class="tab-pane" id="tab-4">
+                  <figure>
+                    <!-- <img src="assets/img/features-4.png" alt="" class="img-fluid"> -->
+                    <img src="{{url_for('static', filename='img/features-4.png')}}" class="img-fluid" alt=""/>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </section><!-- End Features Section -->
+  
+
+<!-- <h1>Toxicity levels for your entered data!</h1>
+
+<div class="text">
+    <h2>Analysis of Text :</h2>
+    <br>
+    <div>
+        Toxicity : {{text[0]}}
+    </div>
+    <div>
+        Insult : {{text[1]}}
+    </div>
+    <div>
+        Profanity : {{text[2]}}
+    </div>
+    <div>
+        Threat : {{text[3]}}
+    </div>
+</div>
+
+<div class="youtube">
+    <h2>Analysis of Youtube videos :</h2>
+    <br>
+    <div>
+        Toxicity : {{yt[0]}}
+    </div>
+    <div>
+        Insult : {{yt[1]}}
+    </div>
+    <div>
+        Profanity : {{yt[2]}}
+    </div>
+    <div>
+        Threat : {{yt[3]}}
+    </div>
+</div>
+
+<form action = "/analyse" method="POST">
+    <button type="submit" value="done">Do another Analysis!</button>
+</form> -->
+
+{% endblock %}
