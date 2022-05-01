@@ -1,5 +1,7 @@
 # Creatica 2022
 
+![pic1](https://user-images.githubusercontent.com/75574159/166156041-fe7fb368-2193-4a05-a20c-4b9aff2066b3.PNG)
+
 ## Inspiration
 
 Since the theme of the event was Ethical Hack, we wanted to make something that could help reduce the negativity one finds around the internet. People from different parts of the world have the opportunity to connect through the internet, yet sometimes it is misused. We wanted to prevent that, so we build a multi-lingual text analysis tool that can do sentiment analysis of text as well as give a summary of the comment section of a youtube video
@@ -7,6 +9,8 @@ Since the theme of the event was Ethical Hack, we wanted to make something that 
 ## What it does
 
 Our Web application performs Sentiment analysis on the text entered by a User and tells them the levels of Toxicity, threat, Insult, and Profanity present in the text. The user can also enter the Youtube id of a video and receive a summary of the toxicity levels present in the comment section of the video.
+
+![pic2](https://user-images.githubusercontent.com/75574159/166156051-3ac7ceaa-67e2-4c7e-b7c0-fda85dc16f02.PNG)
 
 ## How we built it
 
@@ -22,6 +26,10 @@ Using Google's API system was a first for some team members, but it was learned 
 ## Accomplishments that we're proud of
 
 We are glad that we are able to present a complete working web application that performs the functions as per our vision. We intend to continue working on it to make it better!
+
+![pic3](https://user-images.githubusercontent.com/75574159/166156055-d7667abe-ae8d-49fd-84c4-2d0a25b03380.PNG)
+
+![pic4](https://user-images.githubusercontent.com/75574159/166156059-16351aea-ef4e-49f8-a2fa-aa117ae9b21e.PNG)
 
 ## What we learned
 
